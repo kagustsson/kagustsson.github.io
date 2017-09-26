@@ -10,54 +10,55 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
-    <!-- Navigation -->
-    <div>
-      <nav>
-        <ul class="list-group">
-          <li class="list-group-item">
-            <a href="#home" 
-               class="fa fa-home" 
-               data-toggle="tooltip" 
-               data-placement="right" 
-               title="Home"></a>
-          </li>
-          <li class="list-group-item">
-            <a href="#about" 
-               class="fa fa-user" 
-               data-toggle="tooltip" 
-               data-placement="right" 
-               title="About"></a>
-          </li>
-          <li class="list-group-item">
-            <a href="#education" 
-               class="fa fa-graduation-cap" 
-               data-toggle="tooltip" 
-               data-placement="right" 
-               title="Education"></a>
-          </li>
-          <li class="list-group-item">
-            <a href="#experience" 
-               class="fa fa-briefcase" 
-               data-toggle="tooltip" 
-               data-placement="right" 
-               title="Experience"></a>
-          </li>
-          <li class="list-group-item">
-            <a href="#contact" 
-               class="fa fa-envelope" 
-               data-toggle="tooltip" 
-               data-placement="right" 
-               title="Contact"></a>
-          </li>
-        </ul>
-      </nav>
-    </div>
+    <div class="container">
+      <div class="row">
+        <!-- Navigation -->      
+        <div class="col-md-4 col-lg-3">
+          <div >
+            <div>
+              <ul class="nav flex-column" id="exCollapsingNavbar3">
+                <li class="nav-item">
+                    <a class="nav-link active" href="#">Active</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Link</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Link</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link disabled" href="#">Disabled</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
 
-    <!-- Content -->
-    <div>
-      <h1>Hello, I am a template!</h1>
+        <!-- Content -->
+        <div class="col-md-8 col-lg-9">
+          <h1>Hello World!</h1>
+
+          <hr />
+
+          <div class="card text-white bg-secondary">
+            <div class="card-body">
+              <h3 class="card-title">Example Personal Webpage</h3>
+              <p>This is a simple example of a personal webpage
+                hosted on Github pages and using the Bootstrap 
+                UI framework.</p>
+            </div>
+          </div>
+
+          <hr />
+
+          <p>At vero eos et accusamus. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit. Quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+        </div>
+      </div>
+
     </div>
 
     <!-- Bootstrap JavaScript -->
